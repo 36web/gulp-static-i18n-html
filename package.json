@@ -1,0 +1,27 @@
+{
+  "name": "gulp-static-i18n-html",
+  "version": "0.0.0",
+  "description": "A gulp plugin helps generating i18n-ed HTML.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/36web/gulp-static-i18n-html.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "i18n",
+    "HTML"
+  ],
+  "author": "Chris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/36web/gulp-static-i18n-html/issues"
+  },
+  "homepage": "https://github.com/36web/gulp-static-i18n-html#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "static-i18n": "^0.1.16",
+    "through2": "^2.0.3"
+  }
+}
