@@ -1,6 +1,6 @@
 {
   "name": "gulp-static-i18n-html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A gulp plugin helps generating i18n HTML.",
   "main": "index.js",
   "scripts": {},
