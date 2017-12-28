@@ -30,7 +30,13 @@ function gulpStaticI18nHtml(options) {
       } else {
         Object.keys(results).forEach((locale) => {
           let translatedFile = file.clone();
-          translatedFile.path = path.join(file.base, locale, file.relative);
+
+          if (options.locale && options.locale === locale) {
+            translatedFile.path = file.path;
+          } else {
+            translatedFile.path = path.join(file.base, locale, file.relative);
+          }
+
           translatedFile.contents = new Buffer(results[locale]);
 
           self.push(translatedFile);
