@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/36web/gulp-static-i18n-html#readme",
   "dependencies": {
-    "gulp-util": "^3.0.7",
+    "plugin-error": "^0.1.2",
     "static-i18n": "^0.1.16",
     "through2": "^2.0.3"
   }

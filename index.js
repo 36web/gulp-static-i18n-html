@@ -1,9 +1,8 @@
 'use strict';
 
 const through = require('through2');
-const gutil = require('gulp-util');
 const path = require('path');
-const PluginError = gutil.PluginError;
+const PluginError = require('plugin-error');
 const staticI18n = require('static-i18n');
 
 const PLUGIN_NAME = 'gulp-static-i18n-html';
