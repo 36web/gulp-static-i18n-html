@@ -1,7 +1,7 @@
 {
-    "LANGUAGE": "en",
-    "EXAMPLE": {
-        "HELLO": "Hello",
-        "WORLD": "world"
-    }
+  "LANGUAGE": "en",
+  "EXAMPLE": {
+    "HELLO": "Hello",
+    "WORLD": "world"
+  }
 }
