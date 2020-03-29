@@ -13,7 +13,7 @@ $ npm install --save-dev gulp-static-i18n-html
 
 ## Usage
 
-Please make sure to provide a `__LANG__.json` file in your `locales` directory for each translation that you add to the `options.locales` list. In the following example we want any html file to be translated using the translation files for english (`en.json`), french (`fr.json`) and german (`de.json`).
+Please make sure to provide a `__LANG__.json` file in your `locales` directory for each translation that you add to the `options.locales` list. In the following example we want any HTML file to be translated using the translation files for English (`en.json`), French (`fr.json`) and German (`de.json`).
 
 ```javascript
 var staticI18nHtml = require('gulp-static-i18n-html');
@@ -33,22 +33,22 @@ This results in the following directory structure:
 ```
 dist/
 |
-+-- index.html (<-- the english version)
++-- index.html (<-- the English version)
 |
 +-- fr/
 |   |
-|   +-- index.html (<-- the french version)
+|   +-- index.html (<-- the French version)
 |
 +-- de/
 |   |
-|   +-- index.html (<-- the german version)
+|   +-- index.html (<-- the German version)
 +
 ```
 By default, all relative links e.g. for stylesheets or images are edited automatically to fit to new folder structure. In the example above
 ```<link rel="stylesheet" href="./assets/styles.css">```
-remains the same for the english version but becomes
+remains the same for the English version but becomes
 ```<link rel="stylesheet" href=".././assets/styles.css">```
-for the french and german version. If you want to disabled this behaviour set `options.fixPaths: false`.
+for the French and German version. If you want to disable this behaviour, set `options.fixPaths: false`.
 
 See [node-static-i18n](https://github.com/claudetech/node-static-i18n) documentation for more information.
 
