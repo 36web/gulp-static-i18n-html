@@ -1,27 +1,38 @@
 {
-  "name": "gulp-static-i18n-html",
-  "version": "0.3.0",
-  "description": "A gulp plugin helps generating i18n HTML.",
-  "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/36web/gulp-static-i18n-html.git"
-  },
-  "keywords": [
-    "gulpplugin",
-    "i18n",
-    "HTML"
-  ],
-  "author": "Chris",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/36web/gulp-static-i18n-html/issues"
-  },
-  "homepage": "https://github.com/36web/gulp-static-i18n-html#readme",
-  "dependencies": {
-    "plugin-error": "^0.1.2",
-    "static-i18n": "^0.1.20",
-    "through2": "^2.0.3"
-  }
+    "name": "gulp-static-i18n-html",
+    "version": "0.4.0",
+    "description": "A gulp plugin which helps generating i18n HTML.",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint *.js",
+        "lint-test": "eslint test/*.js",
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/36web/gulp-static-i18n-html.git"
+    },
+    "keywords": [
+        "gulpplugin",
+        "i18n",
+        "HTML"
+    ],
+    "author": "Chris",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/36web/gulp-static-i18n-html/issues"
+    },
+    "homepage": "https://github.com/36web/gulp-static-i18n-html#readme",
+    "dependencies": {
+        "plugin-error": "^1.0.1",
+        "static-i18n": "^0.2.6",
+        "through2": "^3.0.1"
+    },
+    "devDependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "eslint": "^6.8.0",
+        "expect.js": "^0.3.1",
+        "gulp": "^4.0.2",
+        "mocha": "^7.1.1"
+    }
 }
